@@ -1,0 +1,15 @@
+.main-container {
+    width: var(--mobile-width);
+    height: var(--mobile-height);
+    display: flex;
+}
+
+.card{
+    width: var(--mobile-width);
+    height: var(--mobile-height);   
+}
+
+.card img {
+    width: 288px;
+    height: 288px;
+}
