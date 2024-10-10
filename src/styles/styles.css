@@ -1,12 +1,35 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: aqua;
+    height: 100%;
+}
+
+img, picture, video, canvas {
+    display: block;
+    max-width: 100%;
+}
+
+/* Styles */
+
 .main-container {
     width: var(--mobile-width);
     height: var(--mobile-height);
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
 }
 
 .card{
-    width: var(--mobile-width);
-    height: var(--mobile-height);   
+    width: var(--card-width);
+    height: var(--card-height);
+    background-color: green;   
 }
 
 .card img {
