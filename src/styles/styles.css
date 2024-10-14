@@ -6,7 +6,7 @@
 }
 
 body, html {
-    background-color: aqua;
+    background-color: var(--white);
     height: 100%;
 }
 
@@ -17,22 +17,71 @@ img, picture, video, canvas {
 
 /* Styles */
 
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .main-container {
     width: var(--mobile-width);
     height: var(--mobile-height);
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: brown;
+    background-color: var(--slate-300);
 }
 
 .card{
     width: var(--card-width);
     height: var(--card-height);
-    background-color: green;   
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 2.5rem;
+    row-gap: 1.5rem;
+    border-radius: 20px;   
 }
 
 .card img {
     width: 288px;
     height: 288px;
+    border-radius: 10px;
+}
+
+.info-section{
+    width: 288px;
+    height: 131px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.info-section h2 {
+    font-family: var(--font-outfit-bold);
+    font-weight: var(--font-weight-bold);
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: var(--slate-900);
+
+}
+
+.info-section p {
+    font-family: var(--font-outfit-regular);
+    font-weight: var(--font-weight-regular);
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2px;
+    color: var(--slate-500);
+
+}
+
+@media (min-width: var(--desktop-width)) and ((min-height: var(--desktop-height))){
+    .main-container {
+        width: var(--desktop-width);
+        height: var(--desktop-height);
+    }
 }
