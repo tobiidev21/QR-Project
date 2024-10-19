@@ -40,7 +40,8 @@ body{
     flex-direction: column;
     padding: 1rem 1rem 2.5rem;
     row-gap: 1.5rem;
-    border-radius: 20px;   
+    border-radius: 20px;
+    box-shadow: 0 25px 25px 0 #0000000c;
 }
 
 .card img {
@@ -77,6 +78,10 @@ body{
     letter-spacing: 0.2px;
     color: var(--slate-500);
 
+}
+
+.info-section h2 p {
+    vertical-align: top;
 }
 
 @media screen and (min-width: 1440px) {
