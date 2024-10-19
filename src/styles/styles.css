@@ -83,6 +83,7 @@ body{
 .info-section h2 p {
     vertical-align: text-top;
     height: auto;
+    width: 100%;
 }
 
 @media screen and (min-width: 1440px) {
