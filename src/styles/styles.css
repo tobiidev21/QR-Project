@@ -38,8 +38,8 @@ body{
     background-color: var(--white);
     display: flex;
     flex-direction: column;
-    padding: 1rem 1rem 2.5rem;
-    row-gap: 1.5rem;
+    padding: 16px 16px 40px;
+    row-gap: 24px;
     border-radius: 20px;
     box-shadow: 0 25px 25px #0000000c;
 }
@@ -55,8 +55,8 @@ body{
     height: 131px;
     display: flex;
     flex-direction: column;
-    row-gap: 1rem;
-    padding: 0 1rem;
+    row-gap: 16px;
+    padding: 0 16px;
     text-align: center;
 }
 
