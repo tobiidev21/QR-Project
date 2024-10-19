@@ -84,6 +84,7 @@ body{
     vertical-align: text-top;
     height: auto;
     width: 100%;
+    text-align: left;
 }
 
 @media screen and (min-width: 1440px) {
